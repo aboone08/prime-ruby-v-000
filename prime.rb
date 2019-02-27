@@ -1,9 +1,9 @@
 # Add  code here!
-def prime?(integer)
-  if integer <= 1
+def prime?(n)
+  if n <= 1
     return false
-  elsif integer/2 == 1
+  elsif n/2 == 1
     return true
-  elsif integer <= 1 && integer-1/integer==0
+  elsif n <= 1 && n-1/n==0
     return true
 end
