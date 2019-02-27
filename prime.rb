@@ -6,7 +6,7 @@ def prime?(integer)
     return true
   elsif integer%2 == 0 || integer%3 == 0
     return false
-  end 
+  end
   n = 5
   while (n.sqrt <= integer) do
     if integer % n == 0 || integer % (n+2) == 0
