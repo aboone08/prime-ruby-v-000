@@ -1,10 +1,10 @@
 # Add  code here!
-def prime?(n)
- if n <= 1
+def prime?(integer)
+ if integer <= 1
    return false
- elsif n <= 3
+ elsif integer <= 3
    return true
- elsif n%2 == 0 || n%3 == 0
-   return false
+ elsif integer/integer == 1
+   return true
  end
 end
