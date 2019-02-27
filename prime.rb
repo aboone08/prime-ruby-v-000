@@ -6,4 +6,5 @@ def prime?(n)
    return true
  elsif n%2 == 0 || n%3 == 0
    return false
+ end
 end
